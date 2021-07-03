@@ -13,9 +13,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-     ImageView imageView;
-     TextView name,sologun;
-     Animation topanim,bottomanim;
+    ImageView imageView;
+    TextView name,sologun;
+    Animation topanim,bottomanim;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
