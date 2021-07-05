@@ -14,11 +14,11 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-//        new Handler().postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                 startActivity(new Intent(getApplicationContext(),Login.class));
-//            }
-//        },3000);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                 startActivity(new Intent(getApplicationContext(),Login.class));
+            }
+        },3000);
     }
 }
